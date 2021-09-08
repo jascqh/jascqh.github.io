@@ -15,6 +15,7 @@ main, footer {
   /* font: Demi 40px/69px Futura PT; */
   font-size: 4.75vmax;
   opacity: 1;
+  
 }
 
 #hero-description {
@@ -140,4 +141,14 @@ rgba(197,118,125,1) 50%, rgba(249,169,137,1) 75%, rgba(250,147,100,1) 100%); */
     background: linear-gradient(90deg, rgba(164,154,194,1) 0%, rgba(168,95,130,1) 25%, 
     rgba(197,118,125,1) 50%, rgba(249,169,137,1) 75%, rgba(250,147,100,1) 100%);;
   }
+}
+
+.col-lg-3 col-sm-6 mb-5{
+  transition: transform 1s;
+}
+
+.col-lg-3 col-sm-6 mb-5:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
