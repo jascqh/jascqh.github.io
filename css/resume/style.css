@@ -160,3 +160,13 @@ rgba(197,118,125,1) 50%, rgba(249,169,137,1) 75%, rgba(250,147,100,1) 100%); */
   color: white;
   
 }
+
+.static{
+  position: absolute;
+  background: white;
+  transition:1s;
+}
+
+.static:hover{
+  opacity: 0;
+}
